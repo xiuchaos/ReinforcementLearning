@@ -20,7 +20,7 @@ a learning system that *wants* something, that *adapts* its behavior in order to
 
 A learning agent must be able to sense the state of its envioronment to some extent and must be able to take actions that affect the state. The agen also must have a goal or **goals relating to the state of the environment**.
 
-** trade-off between exploration and exploration **
+**trade-off between exploration and exploration**
 
 To obtain a lot of reward, a reinforcement learning agent must prefer actions that it has tried in the past and found to be effective in producing reward. The agent has to *exploit* that what it has already experienced in order to obtain reward, but it also has to *explore* in order to make better action selections in the future.
 
@@ -74,11 +74,26 @@ In all of these examples the agent can use its experience to improve its perform
 **evolutionary methods** - without estimating value functions
 > evolutionary methods have advantage on problems in which the learning agent cannot sense the complete state of its environment.
 
+
 ## 1.5 An Extentded Example: Tic-Tac-Toe
 
+Tic-Tac-Toe
+* classical minimax solution
+* optimization methods for sequential decision problems, such as dynamic programming
+* evolutionary method
+* approached with a method making use of a value function 
+	* estimate the state's value
+	* most of time we *move greedily* selecting the move that leads to the state with greatest value, that is, with the highest estimated probability of winning
+	* occasionally, we randomly moves *exploratory moves*, because they cause us to experience states that we might otherwise never see.
 
 
 ## 1.6 Summary
+
+reinforcement learning is the first field to seriously address the computational issues that arise when learning from interaction with an environment in order to achieve long-term goals.
+
+Reinforcement learning uses the formal framework of *Markov decision processes* to define the inter-action between a learning agent and its environment in terms of states, actions, and rewards. This framework is intended to be a simple way of representing essential features of the artificial intelligence problem.
+
+These features include a sense of *cause and effect*, a sense of *uncertainty and nondeterminism*, and the *existence of explicit goals*. Value and value functions are the key features of most of the reinforcement learning methods in this book.
 
 
 ## 1.7 Early History of Reinforcement Learning

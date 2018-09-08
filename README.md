@@ -7,9 +7,9 @@ Seminar: https://yiduai.sg/reading-seminar/
 Book: [Reinforcement Learning: An introduction](http://incompleteideas.net/book/bookdraft2017nov5.pdf)
 
 1. Introduction of Reinforment learning
-	+ examples, elements, limitation and scope
-	+ tabular solution methods
-	+ approximate solution methods
+	* examples, elements, limitation and scope
+	* tabular solution methods
+	* approximate solution methods
 
 2. Multi-armed Bandits
 3. Finite Markov Decision Progress
